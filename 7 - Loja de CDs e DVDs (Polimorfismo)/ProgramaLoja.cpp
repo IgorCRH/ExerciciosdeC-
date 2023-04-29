@@ -30,23 +30,14 @@ cout << "Entre com o numero de musicas do CD: ";
 cin >> nmusicas;
 CD novocd = CD(nome,codigo,preco,nmusicas);
 cds.push_back(novocd);
-cont++;
 } else if (resp == "DVD" || resp == "dvd"){
 cout << "Entre com o numero de faixas do DVD: ";
 cin >> nfaixas;
 DVD novodvd = DVD(nome,codigo,preco,nfaixas);
 dvds.push_back(novodvd);
-cont++;
 } else {
 cout << "Opcao invalida.";
 }
-
-
-if (cont == 60) {
-cout << "Limite de produtos alcançado.";
-break;
-}
-
 cout << "Deseja continuar cadastrando? 1 para Encerrar.";
 cin >> opc;
 } while (opc != 1);
