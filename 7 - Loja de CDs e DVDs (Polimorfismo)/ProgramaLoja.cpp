@@ -8,7 +8,7 @@ using namespace std;
 
 main (){
 std::string nome, resp;
-int codigo, nmusicas, nfaixas, i, cont = 0, opc;
+int codigo, nmusicas, nfaixas, cont = 0, opc;
 double preco;
 std::vector<CD> cds;
 std::vector<DVD> dvds;
@@ -43,7 +43,7 @@ cout << "Opcao invalida.";
 
 
 if (cont == 60) {
-cout << "Limite de produtos alcançado.";
+cout << "Limite de produtos alcanÃ§ado.";
 break;
 }
 
